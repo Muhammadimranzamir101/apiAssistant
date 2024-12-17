@@ -1,0 +1,11 @@
+{
+  "id": "ff808181932badb60193d46f70607067",
+  "name": "Laptop X123",
+  "createdAt": "2024-12-17T11:44:53.344+00:00",
+  "data": {
+    "year": 2019,
+    "price": 899.99,
+    "CPU model": "Intel Core i7-9750H",
+    "Hard disk size": "512GB SSD"
+  }
+}

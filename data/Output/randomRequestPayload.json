@@ -1,0 +1,9 @@
+{
+  "name": "Laptop X123",
+  "data": {
+    "year": 2019,
+    "price": 899.99,
+    "CPU model": "Intel Core i7-9750H",
+    "Hard disk size": "512GB SSD"
+  }
+}

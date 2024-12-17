@@ -1,0 +1,35 @@
+{
+  "scripts": {
+    "watch": "npm-run-all -p watch-vscode watch-api",
+    "watch-vscode": "vscode --extensionDevelopmentPath=.",
+    "watch-api": "your_api_watch_command"
+  },
+  "main": "extension.js",
+  "author": "Muhammad Imran",
+  "license": "MIT",
+  "engines": {
+    "vscode": "*"
+  },
+  "contributes": {
+    "commands": [
+      {
+        "command": "extension.generateAssertion",
+        "title": "Generate RestAssured Assertion"
+      }
+    ]
+  },
+  "activationEvents": [
+    "onCommand:extension.generateAssertion"
+  ],
+  "dependencies": {
+    "@types/node": "^20.11.28",
+    "@types/vscode": "^1.60.0",
+    "@vscode/test-electron": "*",
+    "dotenv": "^16.4.5",
+    "follow-redirects": "^1.15.6",
+    "https": "^1.0.0"
+  },
+  "devDependencies": {
+    "npm-run-all": "^4.1.5"
+  }
+}
